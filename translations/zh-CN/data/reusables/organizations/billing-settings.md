@@ -1,4 +1,4 @@
 {% data reusables.user_settings.access_settings %}
-1. In the "Access" section of the sidebar, click **{% octicon "organization" aria-label="The organization icon" %} Organizations**.
+2. 在设置侧边栏中，单击 **Organizations（组织）**。 ![侧边栏中的组织设置](/assets/images/help/settings/settings-sidebar-organizations.png)
 {% data reusables.profile.org_settings %}
-1. If you are an organization owner, in the "Access" section of the sidebar, click **{% octicon "credit-card" aria-label="The credit-card icon" %} Billing and plans**.
+4. 如果您是组织所有者，请在左侧边栏中单击 **Billing & plans（帐单和计划）**。 ![组织设置侧边栏中的计划方案](/assets/images/help/organizations/billing-settings.png)
