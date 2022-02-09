@@ -9,7 +9,6 @@ topics:
   - Enterprise
   - Actions
 children:
-  - /about-github-actions-for-enterprises
   - /introducing-github-actions-to-your-enterprise
   - /migrating-your-enterprise-to-github-actions
   - /getting-started-with-github-actions-for-github-enterprise-cloud

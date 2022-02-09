@@ -29,6 +29,7 @@ topics:
   - Java
 ---
 
+<!--For this article in earlier GHES versions, see /content/github/finding-security-vulnerabilities-and-errors-in-your-code-->
 
 {% data reusables.code-scanning.deprecation-codeql-runner %}
 {% data reusables.code-scanning.beta %}
@@ -83,7 +84,7 @@ $ /path/to-runner/codeql-runner-linux init --languages cpp,java
 
 {% data reusables.code-scanning.run-additional-queries %}
 
-{% data reusables.code-scanning.codeql-query-suites-explanation %}
+{% data reusables.code-scanning.codeql-query-suites %}
 
 要添加一个或多个查询，请将逗号分隔的路径列表传递给 `init` 命令的 `--queries` 标志。 您也可以在配置文件中指定额外查询。
 
