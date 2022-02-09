@@ -6,7 +6,6 @@ redirect_from:
   - /admin/user-management/removing-users-from-teams-and-organizations
 versions:
   ghes: '*'
-  ghae: '*'
 type: how_to
 topics:
   - Access management
@@ -26,8 +25,6 @@ Organizationのメンバーを削除できるのは、オーナーもしくはTe
 
 ## Teamメンバーの削除
 
-{% ifversion ghes %}
-
 {% warning %}
 
 **ノート：**{% data reusables.enterprise_management_console.badge_indicator %}
@@ -35,8 +32,6 @@ Organizationのメンバーを削除できるのは、オーナーもしくはTe
 LDAPグループに同期しているTeamの既存メンバーを削除するには、LDAPの管理者に連絡してください。
 
 {% endwarning %}
-
-{% endif %}
 
 {% data reusables.profile.access_org %}
 {% data reusables.user_settings.access_org %}

@@ -917,6 +917,8 @@ on:
 ```yaml
 on:
   push:
+    types:
+      - opened
     branches:    
       - 'releases/**'
     paths:
@@ -958,6 +960,8 @@ on:
 ```yaml
 on:
   push:
+    types:
+      - opened
     branches:    
       - 'releases/**'
     paths:
@@ -992,9 +996,9 @@ em:
 
 ### `versão`
 
-| Carga de evento webhook                                                                   | Tipos de atividade                                                                                                                                              | `GITHUB_SHA`                    | `GITHUB_REF`                                    |
-| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------- |
-| [`versão`](/developers/webhooks-and-events/webhooks/webhook-events-and-payloads/#release) | - `published` <br/>- `unpublished` <br/>- `created` <br/>- `edited` <br/>- `deleted` <br/>- `prereleased`<br/> - `released` | Último commit na versão com tag | Tag ref of release `refs/tags/<tag_name>` |
+| Carga de evento webhook                                                                   | Tipos de atividade                                                                                                                                              | `GITHUB_SHA`                    | `GITHUB_REF`  |
+| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ------------- |
+| [`versão`](/developers/webhooks-and-events/webhooks/webhook-events-and-payloads/#release) | - `published` <br/>- `unpublished` <br/>- `created` <br/>- `edited` <br/>- `deleted` <br/>- `prereleased`<br/> - `released` | Último commit na versão com tag | Tag da versão |
 
 {% note %}
 
