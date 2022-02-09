@@ -68,7 +68,7 @@ You can also read the current version by calling the [meta endpoint](/rest/refer
 
 {% endif %}
 
-{% ifversion fpt or ghec or ghes > 3.2 or ghae-issue-5528 %}
+{% ifversion fpt or ghec or ghes > 3.2 %}
 
 ## Audit log
 

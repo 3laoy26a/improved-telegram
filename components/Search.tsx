@@ -132,9 +132,9 @@ export function Search({
       if (router.pathname === '/') {
         // Don't include router.locale so next doesn't attempt a
         // request to `/_next/static/chunks/pages/en.js`
-        router.replace(`/?${params.toString()}`, asPath, { shallow: true })
+        router.replace(`/?${params.toString()}`, asPath)
       } else {
-        router.replace(asPath, undefined, { shallow: true })
+        router.replace(asPath)
       }
     }
   }, [debouncedQuery])
