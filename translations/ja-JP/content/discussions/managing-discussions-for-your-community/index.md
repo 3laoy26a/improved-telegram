@@ -9,6 +9,5 @@ children:
   - /managing-discussions-in-your-repository
   - /managing-categories-for-discussions-in-your-repository
   - /moderating-discussions
-  - /viewing-insights-for-your-discussions
 ---
 

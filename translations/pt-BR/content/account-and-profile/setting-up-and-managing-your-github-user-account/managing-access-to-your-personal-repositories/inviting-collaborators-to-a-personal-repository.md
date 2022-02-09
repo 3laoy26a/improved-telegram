@@ -7,7 +7,7 @@ redirect_from:
   - /articles/inviting-collaborators-to-a-personal-repository
   - /github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository
   - /github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository
-product: '{% data reusables.gated-features.user-repo-collaborators %}'
+product: '{% ifversion fpt %}{% data reusables.gated-features.user-repo-collaborators %}{% endif %}'
 versions:
   fpt: '*'
   ghes: '*'
