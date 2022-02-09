@@ -5,7 +5,9 @@ intro: Você pode adicionar alertas de digitalização de código a problemas us
 product: '{% data reusables.gated-features.code-scanning %}'
 permissions: 'If you have write permission to a repository you can track {% data variables.product.prodname_code_scanning %} alerts in issues using task lists.'
 versions:
-  feature: code-scanning-task-lists
+  fpt: '*'
+  ghes: '> 3.3'
+  ghae: issue-5036
 type: how_to
 topics:
   - Advanced Security
